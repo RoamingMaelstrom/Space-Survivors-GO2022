@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8694945939933779646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8694945939933779644}
+  - component: {fileID: 8694945939933779645}
+  m_Layer: 0
+  m_Name: ObjectiveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8694945939933779644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8694945939933779646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8694945939933779645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8694945939933779646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b44f68192dc7404e8fca951e1440703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createObjectiveEvent: {fileID: 11400000, guid: ae0f7e49290e45d4e9ea885cafee25a4, type: 2}
+  objectiveReachedEvent: {fileID: 11400000, guid: 045e58d5077e30b4b8571bf106a9544d, type: 2}
+  objectivePrefab: {fileID: 204471001598776581, guid: c08179a5d7492d849b7130c802342400, type: 3}
+  npcShipPrefabs:
+  - {fileID: 8395867206781250036, guid: b3d3c2c1cbcd41a40a951981bbe2e066, type: 3}
+  baseDistanceFromPlayer: 15
+  baseMoneyReward: 0
+  distanceRandomness: 0.25
+  distanceIncreaseMultiplier: 1.1
+  moneyPerUnitDistance: 1
+  playerCollider: {fileID: 0}
+  baseDescriptions:
+  - Thanks Giving Dinners
+  - KFC Buckets
+  - Civil War Memorabilia
+  - Copies of the Constitution
+  - Crates of Hersheys Chocolate
+  - Apple Pies
+  - Stuffed Ballot Boxes
+  - Baseball Bats
+  - Boxes of Cuban Cigars
+  - Foam Fingers
+  - Stinger Missiles
+  - Elvis Presley Memorabilia
+  - Jars of Maple Syrup
+  - Crates of Budweiser
+  - Fine Red Wine
+  - JFK Quotes
+  - McDonalds Happy Meals
+  - Nuclear Footballs
+  firstNames:
+  - Liam
+  - Noah
+  - Trevor
+  - Elijah
+  - James
+  - William
+  - Benjamin
+  - Lucas
+  - Henry
+  - Theodore
+  - Jack
+  - Levi
+  - Alexander
+  - Mateo
+  - Jayden
+  - Ezra
+  - Lincoln
+  - Isaiah
+  - Olivia
+  - Emma
+  - Charlotte
+  - Amelia
+  - Jennifer
+  - Ava
+  - Gianna
+  - Elizabeth
+  - Camila
+  - Harper
+  - Evelyn
+  - Eleanor
+  - Isabella
+  - Emily
+  - Hannah
+  - Chloe
+  - Destiny
+  - Naomi
+  - Aaliyah
+  - George
+  - Washington
+  - Donald
+  - Arthur
+  - Taylor
+  - Ariani
+  - Nicki
+  - Aubrey
+  - Zain
+  lastNames:
+  - Obama
+  - Trump
+  - Bush
+  - Washington
+  - Lincoln
+  - Smith
+  - Jones
+  - Williams
+  - Cooper
+  - Dixon
+  - Carter
+  - Johnson
+  - Wilson
+  - Taft
+  - Arthur
+  - Garfield
+  - Taylor
+  - Coolidge
+  - Swift
+  - Tucker
+  - Carlson
+  - Wallace
+  - Carlson
+  - Asher
+  - Shapiro
+  - Fitzgerald
+  - Stein
+  - Atlas
+  - Etienne
+  - Piker
+  - Bonnell
+  - Kochinski
+  - Walker
+  - White
+  - Brown
