@@ -13,6 +13,7 @@ Sound assets
 Various Weapon Sounds - Kenney https://kenney.nl/assets
 Pickup and Level up sounds - Fusehive http://www.fusehive.com/
 Laser Beam Sound - Varkalandar https://opengameart.org/users/varkalandar
+Music - GravitySound https://gravitysound.studio/
 
 
 
